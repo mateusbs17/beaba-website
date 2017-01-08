@@ -54,6 +54,18 @@ img.img-right {
     position: absolute;
 }
 
+.section-overlay-layer {
+	padding-top: 100px;
+}
+
+.font-title img{
+	max-height:80px;
+}
+
 .call-to-action .section-overlay-layer {
     background: none;
+}
+
+.aba-guarana img{
+    max-height: 380px;
 }
