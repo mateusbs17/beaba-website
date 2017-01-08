@@ -25,22 +25,7 @@ if ( ! empty( $parallax_one_our_services_title ) || ! empty( $parallax_one_our_s
 			<div class="container">
 
 				<div class="section-header">
-					<?php
-					if ( ! empty( $parallax_one_our_services_title ) ) {  ?>
-						<h2 class="dark-text"><?php echo esc_attr( $parallax_one_our_services_title ); ?></h2><div class="colored-line"></div>
-					<?php
-					} elseif ( is_customize_preview() ) { ?>
-						<h2 class="dark-text paralax_one_only_customizer"></h2><div class="colored-line paralax_one_only_customizer"></div>
-					<?php
-					}
-
-					if ( ! empty( $parallax_one_our_services_subtitle ) ) {  ?>
-						<div class="sub-heading"><?php echo esc_attr( $parallax_one_our_services_subtitle ); ?></div>
-					<?php
-					} elseif ( is_customize_preview() ) { ?>
-						<div class="sub-heading paralax_one_only_customizer"></div>
-					<?php
-					}?>
+					<img src="http://www.danielbatista.com.br/wp-content/uploads/2017/01/site-11.png">
 				</div>
 
 				<?php
