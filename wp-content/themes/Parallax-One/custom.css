@@ -53,3 +53,7 @@ img.img-right {
     height: 300px;
     position: absolute;
 }
+
+.call-to-action .section-overlay-layer {
+    background: none;
+}
