@@ -1,0 +1,55 @@
+
+/**
+ * Beaba Custom CSS
+ */
+
+.header .overlay-layer{
+	padding-left: 40%!important;
+}
+
+.overlay-layer-wrap {
+    background: rgba(0, 0, 0, 0)!important;
+}
+
+/**
+ * Botão do cabeçalho
+ */
+
+.standard-button {
+    text-transform: inherit;	
+}
+
+.standard-button, .navbar-register-button {
+    background-color: #cb4059;
+    border-radius: 20px;
+    font-family: Vanillaregular;
+}
+
+.standard-button:hover, .navbar-register-button:hover{
+	    background: #cb4059;
+}
+
+#parallax_move .layer {
+    background-size: auto 100%!important;
+}
+
+/**
+ * Call to Action descrição do exemplar
+ */
+
+.call-to-action h2 {
+    height: 193px;
+}
+
+img.img-left {
+    left: 0px;
+}
+
+img.img-right {
+    right: 0px;
+}
+
+.white-text img {
+    height: 300px;
+    position: absolute;
+}
