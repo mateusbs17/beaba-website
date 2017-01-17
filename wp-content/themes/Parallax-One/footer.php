@@ -64,13 +64,19 @@
 
 	</div><!-- container -->
 	<!-- INICIO FORMULARIO BOTAO PAGSEGURO -->
-	<form action="https://pagseguro.uol.com.br/checkout/v2/cart.html?action=add" method="post" onsubmit="PagSeguroLightbox(this); return false;">
-	<!-- NÃO EDITE OS COMANDOS DAS LINHAS ABAIXO -->
-	<input type="hidden" name="itemCode" value="627156771212142004B78FB927A9DFAB" />
-	<input type="hidden" name="iot" value="button" />
-	<input type="image" src="https://stc.pagseguro.uol.com.br/public/img/botoes/pagamentos/209x48-comprar-assina.gif" name="submit" alt="Pague com PagSeguro - é rápido, grátis e seguro!" />
-	</form>
-	<script type="text/javascript" src="https://stc.pagseguro.uol.com.br/pagseguro/api/v2/checkout/pagseguro.lightbox.js"></script>
+	<div class="pag-seguro-form">
+		<form action="https://pagseguro.uol.com.br/checkout/v2/cart.html?action=add" method="post" onsubmit="PagSeguroLightbox(this); return false;">
+		<!-- NÃO EDITE OS COMANDOS DAS LINHAS ABAIXO -->
+		<input type="hidden" name="itemCode" value="627156771212142004B78FB927A9DFAB" />
+		<input type="hidden" name="iot" value="button" />
+		<input type="image" src="https://stc.pagseguro.uol.com.br/public/img/botoes/pagamentos/209x48-comprar-assina.gif" name="submit" alt="Pague com PagSeguro - é rápido, grátis e seguro!" />
+		</form>
+		<script type="text/javascript" src="https://stc.pagseguro.uol.com.br/pagseguro/api/v2/checkout/pagseguro.lightbox.js"></script>
+		<script type="text/javascript">
+			var $ =  jQuery;
+			$('.inpage_scroll_btn').on('click', function(){$('input[type=image]').click();});
+		</script>
+	</div>
 	<!-- FINAL FORMULARIO BOTAO PAGSEGURO -->
 </footer>
 
