@@ -48,9 +48,9 @@
 			<div class="col-sm-4 col-xs-12 col-md-4">
 				<div class="footer-title">Redes Sociais e Contato:</div>
 				<div class="row social-icons">
-					<a href="https://www.facebook.com/betoeabahq"><i class="fa fa-facebook-square fa-5x"></i></a>
-					<a href="https://www.behance.net/beaba" class='circle-icon'><i class="fa fa-behance fa-5x"></i></a>
-					<a href="mailto:daniel.beaba95@gmail.com " class='circle-icon'><i class="fa fa-envelope-o fa-3x"></i></a>
+					<a href="https://www.facebook.com/betoeabahq" class="facebook"><i class="fa fa-facebook-square fa-5x"></i></a>
+					<a href="https://www.behance.net/beaba" class='behance'><i class="fa fa-behance fa-5x"></i></a>
+					<a href="mailto:daniel.beaba95@gmail.com " class='email'><i class="fa fa-envelope-o fa-3x"></i></a>
 				</div>
 			</div>
 			<div class="col-sm-4 col-xs-12 col-md-4">
