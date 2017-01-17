@@ -60,6 +60,15 @@ img.img-right {
     background: none;
 }
 
+.aba-guarana {
+    padding: 0 10% 0 10%;
+    text-align: center;
+}
+
+.aba-image {
+    padding-bottom: 80px
+}
+
 .aba-guarana img{
     max-height: 380px;
 }

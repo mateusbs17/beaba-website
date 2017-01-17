@@ -43,10 +43,10 @@ if ( ! empty( $parallax_one_our_services_title ) || ! empty( $parallax_one_our_s
 					</div>	
 					<div class="row">
 						<div class="aba-guarana">
-							<div class="row">
+							<div class="row aba-image">
 								<img src="http://www.danielbatista.com.br/wp-content/uploads/2017/01/guaraná2.png">
 							</div>
-							<div class="row">
+							<div class="row aba-texto">
 								<span>
 									Fruto nativo do Brasil, o guaraná vai aparecer muito nessa história e será
 									o grande energético dessa aventura <br>
