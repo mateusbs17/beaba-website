@@ -66,7 +66,7 @@ img.img-right {
 }
 
 .aba-image {
-    padding-bottom: 80px
+    padding-bottom: 60px;
 }
 
 .aba-guarana img{
@@ -75,4 +75,8 @@ img.img-right {
 
 .services {
     background-color: #d6e04d;
+}
+
+.border-bottom-hover:hover {
+    border-bottom-color: #145742;
 }
