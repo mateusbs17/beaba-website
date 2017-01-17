@@ -44,86 +44,14 @@
 		</div><!-- .footer-widget-wrap -->
 
 		<div class="footer-bottom-wrap">
-			<?php
-			$paralax_one_copyright = get_theme_mod( 'parallax_one_copyright','Themeisle' );
-
-			if ( ! empty( $paralax_one_copyright ) ) {  ?>
-				<span class="parallax_one_copyright_content"><?php echo esc_attr( $paralax_one_copyright ); ?></span>
-			<?php
-			} elseif ( is_customize_preview() ) { ?>
-				<span class="parallax_one_copyright_content paralax_one_only_customizer"></span>
-			<?php
-			} ?>
-
-			<div itemscope role="navigation" itemtype="http://schema.org/SiteNavigationElement" id="menu-secondary" aria-label="<?php esc_html_e( 'Secondary Menu','parallax-one' ); ?>">
-				<h2 class="screen-reader-text"><?php esc_html_e( 'Secondary Menu', 'parallax-one' ); ?></h2>
-				<?php
-				wp_nav_menu( array(
-					'theme_location'    => 'parallax_footer_menu',
-					'container'         => false,
-					'menu_class'        => 'footer-links small-text',
-					'depth' 			=> 1,
-					'fallback_cb'       => false,
-				) );
-				?>
+			<div class="col-sm-5 col-xs-12 col-md-5"></div>
+			<div class="col-sm-4 col-xs-12 col-md-4">
+				Redes Sociais
 			</div>
-
-			<?php
-			$parallax_one_social_icons = get_theme_mod('parallax_one_social_icons', json_encode( array(
-				array( 'icon_value' => 'icon-social-facebook' , 'link' => '#' ),
-				array( 'icon_value' => 'icon-social-twitter' , 'link' => '#' ),
-				array( 'icon_value' => 'icon-social-googleplus' , 'link' => '#' ),
-			) ) );
-
-			if ( ! empty( $parallax_one_social_icons ) ) {
-				$parallax_one_social_icons_decoded = json_decode( $parallax_one_social_icons );
-				if ( ! empty( $parallax_one_social_icons_decoded ) ) {  ?>
-					<ul class="social-icons">
-						<?php
-						foreach ( $parallax_one_social_icons_decoded as $parallax_one_social_icon ) {
-
-							if ( ! empty( $parallax_one_social_icon->id ) ) {
-								$id = esc_attr( $parallax_one_social_icon->id );
-							}
-
-							if ( ! empty( $parallax_one_social_icon->link ) ) {
-								if ( function_exists( 'pll__' ) ) {
-									$link = pll__( $parallax_one_social_icon->link );
-								} else {
-									$link = apply_filters( 'wpml_translate_single_string', $parallax_one_social_icon->link, 'Parallax One -> Footer', 'Footer social link ' . $id );
-								}
-							}
-
-							if ( ! empty( $parallax_one_social_icon->icon_value ) ) {
-								if ( function_exists( 'pll__' ) ) {
-									$icon = pll__( $parallax_one_social_icon->icon_value );
-								} else {
-									$icon = apply_filters( 'wpml_translate_single_string', $parallax_one_social_icon->icon_value, 'Parallax One -> Footer', 'Footer social icon ' . $id );
-								}
-							}
-
-							if ( ! empty( $icon ) ) {  ?>
-								<li>
-									<?php
-									if ( ! empty( $link ) ) {  ?>
-											<a target="_blank" href="<?php echo esc_url( $link ); ?>">
-												<span class="fa parallax-one-footer-icons <?php echo esc_attr( $icon ); ?> transparent-text-dark"></span>
-											</a>
-									<?php
-									} else { ?>
-											<span class="parallax-one-footer-icons <?php echo esc_attr( $icon ); ?> transparent-text-dark"></span>
-									<?php
-									} ?>
-								</li>
-							<?php
-							}
-						}// End foreach().
-	?>
-					</ul>
-				<?php
-				}// End if().
-			}// End if().
-	?>
+			<div class="col-sm-3 col-xs-12 col-md-3">
+				Selo Independente
+			</div>
+			
 		</div><!-- .footer-bottom-wrap -->
 
 	</div><!-- container -->
