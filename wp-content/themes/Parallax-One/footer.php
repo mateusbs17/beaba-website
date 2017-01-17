@@ -46,10 +46,18 @@
 		<div class="footer-bottom-wrap">
 			<div class="col-sm-5 col-xs-12 col-md-5"></div>
 			<div class="col-sm-4 col-xs-12 col-md-4">
-				Redes Sociais
+				<div class="footer-title">Redes Sociais</div>
+				<div class="row social-icons">
+					<i class="fa fa-facebook-square"></i>
+					<i class="fa fa-behance-square"></i>
+					<i class="fa fa-envelope-o"></i>
+				</div>
 			</div>
 			<div class="col-sm-3 col-xs-12 col-md-3">
-				Selo Independente
+				<div class="footer-title">Selo Independente</div>
+				<div class="row gas-icon">
+					<img src="http://www.danielbatista.com.br/wp-content/uploads/2017/01/site-14.png">
+				</div>
 			</div>
 			
 		</div><!-- .footer-bottom-wrap -->
