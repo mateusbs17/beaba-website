@@ -44,17 +44,17 @@
 		</div><!-- .footer-widget-wrap -->
 
 		<div class="footer-bottom-wrap">
-			<div class="col-sm-5 col-xs-12 col-md-5"></div>
+			<div class="col-sm-4 col-xs-12 col-md-4"></div>
 			<div class="col-sm-4 col-xs-12 col-md-4">
-				<div class="footer-title">Redes Sociais</div>
+				<div class="footer-title">Redes Sociais e Contato:</div>
 				<div class="row social-icons">
-					<i class="fa fa-facebook-square"></i>
-					<i class="fa fa-behance-square"></i>
-					<i class="fa fa-envelope-o"></i>
+					<a href="https://www.facebook.com/betoeabahq"><i class="fa fa-facebook-square fa-5x"></i></a>
+					<a href="https://www.behance.net/beaba" class='circle-icon'><i class="fa fa-behance fa-5x"></i></a>
+					<a href="mailto:daniel.beaba95@gmail.com " class='circle-icon'><i class="fa fa-envelope-o fa-3x"></i></a>
 				</div>
 			</div>
-			<div class="col-sm-3 col-xs-12 col-md-3">
-				<div class="footer-title">Selo Independente</div>
+			<div class="col-sm-4 col-xs-12 col-md-4">
+				<div class="footer-title">Selo Independente:</div>
 				<div class="row gas-icon">
 					<img src="http://www.danielbatista.com.br/wp-content/uploads/2017/01/site-14.png">
 				</div>

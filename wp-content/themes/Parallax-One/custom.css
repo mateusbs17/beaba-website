@@ -80,3 +80,7 @@ img.img-right {
 .border-bottom-hover:hover {
     border-bottom-color: #145742;
 }
+
+.gas-icon {
+    max-height: 75px;
+}
