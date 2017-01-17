@@ -1,10 +1,9 @@
-
 /**
  * Beaba Custom CSS
  */
 
 .header .overlay-layer{
-	padding-left: 40%!important;
+    padding-left: 40%!important;
 }
 
 .overlay-layer-wrap {
@@ -16,7 +15,7 @@
  */
 
 .standard-button {
-    text-transform: inherit;	
+    text-transform: inherit;    
 }
 
 .standard-button, .navbar-register-button {
@@ -26,11 +25,7 @@
 }
 
 .standard-button:hover, .navbar-register-button:hover{
-	    background: #cb4059;
-}
-
-#parallax_move .layer {
-    background-size: auto 100%!important;
+    background: #cb4059;
 }
 
 /**
@@ -42,24 +37,23 @@
 }
 
 img.img-left {
+    height: 300px;
+    position: absolute;
     left: 0px;
 }
 
 img.img-right {
+    height: 300px;
+    position: absolute;
     right: 0px;
 }
 
-.white-text img {
-    height: 300px;
-    position: absolute;
-}
-
 .section-overlay-layer {
-	padding-top: 100px;
+    padding-top: 100px;
 }
 
 .font-title img{
-	max-height:80px;
+    max-height:80px;
 }
 
 .call-to-action .section-overlay-layer {
@@ -68,4 +62,8 @@ img.img-right {
 
 .aba-guarana img{
     max-height: 380px;
+}
+
+.services {
+    background-color: #d6e04d;
 }

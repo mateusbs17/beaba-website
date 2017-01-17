@@ -36,17 +36,21 @@ if ( ! empty( $parallax_one_our_services_title ) || ! empty( $parallax_one_our_s
 				</div>	
 					
 				<div class="row">
-					<div class="section-header font-title guarana-title">
-						<img src="http://www.danielbatista.com.br/wp-content/uploads/2017/01/site-11.png">
-					</div>
-					<div class="aba-guarana">
-						<img src="http://www.danielbatista.com.br/wp-content/uploads/2017/01/guaraná2.png">
-						<span>
-							Fruto nativo do Brasil, o guaraná vai aparecer muito nessa história e será
-							o grande energético dessa aventura <br>
-							<br>
-							Com o nome  científico  de Paullinia cupana, o guaranazeiro era uma terpadeira silvestre que foi transformada em arbusto para o cultivo  do fruto. Há rumores de que há uma "fonte do guaraná" e Beto, sendo um menino tão fissurado por este fruto, tem a motivação de encontrá-la.
-						</span>
+					<div class="row">
+						<div class="section-header font-title guarana-title">
+							<img src="http://www.danielbatista.com.br/wp-content/uploads/2017/01/site-11.png">
+						</div>
+					</div>	
+					<div class="row">
+						<div class="aba-guarana">
+							<img src="http://www.danielbatista.com.br/wp-content/uploads/2017/01/guaraná2.png">
+							<span>
+								Fruto nativo do Brasil, o guaraná vai aparecer muito nessa história e será
+								o grande energético dessa aventura <br>
+								<br>
+								Com o nome  científico  de Paullinia cupana, o guaranazeiro era uma terpadeira silvestre que foi transformada em arbusto para o cultivo  do fruto. Há rumores de que há uma "fonte do guaraná" e Beto, sendo um menino tão fissurado por este fruto, tem a motivação de encontrá-la.
+							</span>
+						</div>
 					</div>
 				</div>	
 
