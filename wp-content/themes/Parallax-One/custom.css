@@ -81,6 +81,29 @@ img.img-right {
     border-bottom-color: #145742;
 }
 
-.gas-icon {
+.gas-icon img{
     max-height: 75px;
+}
+
+.footer {
+    background: #d6e04d;
+}
+.social-icons a.facebook {
+
+}
+
+.social-icons a.behance {
+    background: #0b5741;
+    border: 1px #0b5741;
+    border-radius: 124px;
+    padding: 38px 10px 15px 12px;
+    color: #d6e04d;
+}
+
+.social-icons a.email {
+    background: #0b5741;
+    border: 1px #0b5741;
+    border-radius: 124px;
+    padding: 38px 10px 15px 12px;
+    color: #d6e04d;
 }
