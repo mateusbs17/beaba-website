@@ -44,7 +44,7 @@
 		</div><!-- .footer-widget-wrap -->
 
 		<div class="footer-bottom-wrap">
-			<div class="col-sm-4 col-xs-12 col-md-4"></div>
+			<div class="col-sm-5 col-xs-12 col-md-5"></div>
 			<div class="col-sm-4 col-xs-12 col-md-4">
 				<div class="footer-title">Redes Sociais e Contato:</div>
 				<div class="row social-icons">
@@ -53,7 +53,7 @@
 					<a href="mailto:daniel.beaba95@gmail.com " class='email'><i class="fa fa-envelope-o fa-3x"></i></a>
 				</div>
 			</div>
-			<div class="col-sm-4 col-xs-12 col-md-4">
+			<div class="col-sm-3 col-xs-12 col-md-3">
 				<div class="footer-title">Selo Independente:</div>
 				<div class="row gas-icon">
 					<img src="http://www.danielbatista.com.br/wp-content/uploads/2017/01/site-14.png">
