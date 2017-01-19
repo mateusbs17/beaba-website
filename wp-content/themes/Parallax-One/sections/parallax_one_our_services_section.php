@@ -63,25 +63,43 @@ if ( ! empty( $parallax_one_our_services_title ) || ! empty( $parallax_one_our_s
 				</div>
 
 				<div class="row">
-					<div class="col-sm-4 col-md-4 col-xs-12">
+					<div class="col-sm-4 col-md-4 col-xs-12 personagem">
 						<img src="http://www.danielbatista.com.br/wp-content/uploads/2017/01/site-10-138x300.png">
+						<div class="personagem-descricao">
+							Um jovem curumim de origem Sateré-Mawé que traz a lenda do guaraná dentro de si.
+						</div>
 					</div>
-					<div class="col-sm-4 col-md-4 col-xs-12">
+					<div class="col-sm-4 col-md-4 col-xs-12 personagem">
 						<img src="http://www.danielbatista.com.br/wp-content/uploads/2017/01/site-09-142x300.png">
+						<div class="personagem-descricao">
+							Tem 13 anos. Escodeiro sonhador pronto para uma aventura e uma certa peculiariedade: viciado em guaraná.
+						</div>
 					</div>
-					<div class="col-sm-4 col-md-4 col-xs-12">
+					<div class="col-sm-4 col-md-4 col-xs-12 personagem">
 						<img src="http://www.danielbatista.com.br/wp-content/uploads/2017/01/site-08-142x300.png">
+						<div class="personagem-descricao">
+							Avô de Beto, vive até hoje como um militar quando jovem. Meio louco, mas sempre tem uma boa lição a Beto
+						</div>
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-sm-4 col-md-4 col-xs-12">
+					<div class="col-sm-4 col-md-4 col-xs-12 personagem">
 						<img src="http://www.danielbatista.com.br/wp-content/uploads/2017/01/site-05-111x300.png">
+						<div class="personagem-descricao">
+							Era um Antigo Biólogo do Butantan e atual guardião da "floresta de tupã". Um grande contador de histórias.
+						</div>
 					</div>
-					<div class="col-sm-4 col-md-4 col-xs-12">
+					<div class="col-sm-4 col-md-4 col-xs-12 personagem">
 						<img src="http://www.danielbatista.com.br/wp-content/uploads/2017/01/site-06-176x300.png">
+						<div class="personagem-descricao">
+							Até agora, o que se sabe é que ele está no meio do Brasil. O que um urso faz por aqui?
+						</div>
 					</div>
-					<div class="col-sm-4 col-md-4 col-xs-12">
+					<div class="col-sm-4 col-md-4 col-xs-12 personagem">
 						<img src="http://www.danielbatista.com.br/wp-content/uploads/2017/01/site-07-173x300.png">
+						<div class="personagem-descricao">
+							Amiga de beto, Lisa é determinada e tem um olhar diferente. Ela gosta de tirar fotos com a "pimba", sua máquina fotográfica.
+						</div>
 					</div>
 				</div>
 
