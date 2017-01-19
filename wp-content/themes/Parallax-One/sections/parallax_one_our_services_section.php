@@ -62,6 +62,29 @@ if ( ! empty( $parallax_one_our_services_title ) || ! empty( $parallax_one_our_s
 					<img src="http://www.danielbatista.com.br/wp-content/uploads/2017/01/site-12.png">
 				</div>
 
+				<div class="row">
+					<div class="col-sm-4 col-md-4 col-xs-12">
+						<img src="http://www.danielbatista.com.br/wp-content/uploads/2017/01/site-10-138x300.png">
+					</div>
+					<div class="col-sm-4 col-md-4 col-xs-12">
+						<img src="http://www.danielbatista.com.br/wp-content/uploads/2017/01/site-09-142x300.png">
+					</div>
+					<div class="col-sm-4 col-md-4 col-xs-12">
+						<img src="http://www.danielbatista.com.br/wp-content/uploads/2017/01/site-08-142x300.png">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-4 col-md-4 col-xs-12">
+						<img src="http://www.danielbatista.com.br/wp-content/uploads/2017/01/site-05-111x300.png">
+					</div>
+					<div class="col-sm-4 col-md-4 col-xs-12">
+						<img src="http://www.danielbatista.com.br/wp-content/uploads/2017/01/site-06-176x300.png">
+					</div>
+					<div class="col-sm-4 col-md-4 col-xs-12">
+						<img src="http://www.danielbatista.com.br/wp-content/uploads/2017/01/site-07-173x300.png">
+					</div>
+				</div>
+
 				<?php
 				if ( ! empty( $parallax_one_services ) ) {
 					$parallax_one_services_decoded = json_decode( $parallax_one_services );?>

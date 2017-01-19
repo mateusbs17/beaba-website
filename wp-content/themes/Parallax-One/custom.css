@@ -132,3 +132,7 @@ img.img-right {
 .footer-title {
     font-size: 12px;
 }
+
+.pag-seguro-form {
+    display: none;
+}
