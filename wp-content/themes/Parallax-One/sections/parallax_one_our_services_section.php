@@ -29,7 +29,7 @@ if ( ! empty( $parallax_one_our_services_title ) || ! empty( $parallax_one_our_s
 						<iframe width="560" height="315" src="https://www.youtube.com/embed/f1OcjGtBMlg" frameborder="0"></iframe>
 					</div>
 					<div class="col-sm-6">
-						Bê-a-bá, vamos começar? Beabá é a História em Quadrinhos Independente criada por Daniel Batista. a HQ narra a aventura de Beto, um menino ansioso em conhecer o mundo a sua volta e com uma motivação peculiar: encontrar a "Fonte do Guaraná", As possibilidades de aventuras são incontáveis quando ele se encontra com uma presença inesperada no Brasil.
+						Bê-a-bá, vamos começar? Beabá é a História em Quadrinhos Independente criada por Daniel Batista. A HQ narra a aventura de Beto, um menino ansioso em conhecer o mundo a sua volta e com uma motivação peculiar: encontrar a "Fonte do Guaraná", As possibilidades de aventuras são incontáveis quando ele se encontra com uma presença inesperada no Brasil.
 						<br><br>
 						O início de uma história que revisita a cultura brasileira em uma narrativa divertida e empolgante. Aceita um guaraná?
 					</div>
@@ -49,9 +49,9 @@ if ( ! empty( $parallax_one_our_services_title ) || ! empty( $parallax_one_our_s
 							<div class="row aba-texto">
 								<span>
 									Fruto nativo do Brasil, o guaraná vai aparecer muito nessa história e será
-									o grande energético dessa aventura <br>
+									o grande energético dessa aventura. <br>
 									<br>
-									Com o nome  científico  de Paullinia cupana, o guaranazeiro era uma terpadeira silvestre que foi transformada em arbusto para o cultivo  do fruto. Há rumores de que há uma "fonte do guaraná" e Beto, sendo um menino tão fissurado por este fruto, tem a motivação de encontrá-la.
+									Com o nome  científico  de Paullinia cupana, o guaranazeiro era uma trepadeira silvestre que foi transformada em arbusto para o cultivo  do fruto. Há rumores de que há uma "fonte do guaraná" e Beto, sendo um menino tão fissurado por este fruto, tem a motivação de encontrá-la.
 								</span>
 							</div>
 						</div>
@@ -72,7 +72,7 @@ if ( ! empty( $parallax_one_our_services_title ) || ! empty( $parallax_one_our_s
 					<div class="col-sm-4 col-md-4 col-xs-12 personagem">
 						<img src="http://www.danielbatista.com.br/wp-content/uploads/2017/01/site-09.png">
 						<div class="personagem-descricao">
-							Tem 13 anos. Escodeiro sonhador pronto para uma aventura e uma certa peculiariedade: viciado em guaraná.
+							Tem 13 anos. Escoteiro sonhador pronto para uma aventura e uma certa peculiariedade: fissurado em guaraná.
 						</div>
 					</div>
 					<div class="col-sm-4 col-md-4 col-xs-12 personagem">

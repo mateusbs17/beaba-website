@@ -136,3 +136,16 @@ img.img-right {
 .pag-seguro-form {
     display: none;
 }
+
+/**
+ * Seção de personagem
+ */
+
+.personagem {
+    text-align: center;
+}
+
+.personagem img {
+    padding: 15%;
+    max-height: 600px;
+}
