@@ -26,7 +26,9 @@ if ( ! empty( $parallax_one_our_services_title ) || ! empty( $parallax_one_our_s
 
 				<div class="row">
 					<div class="col-sm-6">
-						<iframe width="560" height="315" src="https://www.youtube.com/embed/f1OcjGtBMlg" frameborder="0"></iframe>
+						<div class="youtube-container">
+							<iframe src="https://www.youtube.com/embed/f1OcjGtBMlg" frameborder="0"></iframe>
+						</div>
 					</div>
 					<div class="col-sm-6">
 						Bê-a-bá, vamos começar? Beabá é a História em Quadrinhos Independente criada por Daniel Batista. A HQ narra a aventura de Beto, um menino ansioso em conhecer o mundo a sua volta e com uma motivação peculiar: encontrar a "Fonte do Guaraná", As possibilidades de aventuras são incontáveis quando ele se encontra com uma presença inesperada no Brasil.
