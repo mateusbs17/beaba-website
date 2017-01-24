@@ -19,7 +19,6 @@
 <meta property="og:title" content="Beabá" /> 
 <meta property="og:image" content="http://www.danielbatista.com.br/wp-content/uploads/2017/01/siteai-21.png" />
 <meta property="og:description" content="História em Quadrinhos por Daniel Batista" /> 
-<meta property="og:url" content="http://www.danielbatista.com.br/">
 
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
