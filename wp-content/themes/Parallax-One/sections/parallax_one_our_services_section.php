@@ -66,40 +66,46 @@ if ( ! empty( $parallax_one_our_services_title ) || ! empty( $parallax_one_our_s
 
 				<div class="row">
 					<div class="col-sm-4 col-md-4 col-xs-12 personagem">
-						<img src="http://www.danielbatista.com.br/wp-content/uploads/2017/01/site-10.png">
-						<div class="personagem-descricao">
+						<img class="responsive-hide" src="http://www.danielbatista.com.br/wp-content/uploads/2017/01/site-10.png">
+						<img class="desktop-hide" src="http://www.danielbatista.com.br/wp-content/uploads/2017/01/mobile-15.png">
+						<img class="desktop-hide" src="http://www.danielbatista.com.br/wp-content/uploads/2017/01/mobile-16.png">
+						<div class="personagem-descricao  responsive-hide responsive-hide">
 							Um jovem curumim de origem Sateré-Mawé que traz a lenda do guaraná dentro de si.
 						</div>
 					</div>
 					<div class="col-sm-4 col-md-4 col-xs-12 personagem">
-						<img src="http://www.danielbatista.com.br/wp-content/uploads/2017/01/site-09.png">
-						<div class="personagem-descricao">
+						<img class="responsive-hide" src="http://www.danielbatista.com.br/wp-content/uploads/2017/01/site-09.png">
+						<img class="desktop-hide" src="http://www.danielbatista.com.br/wp-content/uploads/2017/01/mobile-17.png">
+						<img class="desktop-hide" src="http://www.danielbatista.com.br/wp-content/uploads/2017/01/mobile-18.png">
+						<div class="personagem-descricao  responsive-hide">
 							Tem 13 anos. Escoteiro sonhador pronto para uma aventura e uma certa peculiariedade: fissurado em guaraná.
 						</div>
 					</div>
 					<div class="col-sm-4 col-md-4 col-xs-12 personagem">
-						<img src="http://www.danielbatista.com.br/wp-content/uploads/2017/01/site-08.png">
-						<div class="personagem-descricao">
+						<img class="responsive-hide" src="http://www.danielbatista.com.br/wp-content/uploads/2017/01/site-08.png">
+						<img class="desktop-hide" src="http://www.danielbatista.com.br/wp-content/uploads/2017/01/mobile-19.png">
+						<img class="desktop-hide" src="http://www.danielbatista.com.br/wp-content/uploads/2017/01/mobile-20.png">
+						<div class="personagem-descricao  responsive-hide">
 							Avô de Beto, vive até hoje como um militar quando jovem. Meio louco, mas sempre tem uma boa lição a Beto
 						</div>
 					</div>
 				</div>
 				<div class="row">
 					<div class="col-sm-4 col-md-4 col-xs-12 personagem">
-						<img src="http://www.danielbatista.com.br/wp-content/uploads/2017/01/site-05.png">
-						<div class="personagem-descricao">
+						<img class="responsive-hide" src="http://www.danielbatista.com.br/wp-content/uploads/2017/01/site-05.png">
+						<div class="personagem-descricao  responsive-hide">
 							Era um Antigo Biólogo do Butantan e atual guardião da "floresta de tupã". Um grande contador de histórias.
 						</div>
 					</div>
 					<div class="col-sm-4 col-md-4 col-xs-12 personagem">
-						<img src="http://www.danielbatista.com.br/wp-content/uploads/2017/01/site-06.png">
-						<div class="personagem-descricao">
+						<img class="responsive-hide" src="http://www.danielbatista.com.br/wp-content/uploads/2017/01/site-06.png">
+						<div class="personagem-descricao  responsive-hide">
 							Até agora, o que se sabe é que ele está no meio do Brasil. O que um urso faz por aqui?
 						</div>
 					</div>
 					<div class="col-sm-4 col-md-4 col-xs-12 personagem">
-						<img src="http://www.danielbatista.com.br/wp-content/uploads/2017/01/site-07.png">
-						<div class="personagem-descricao">
+						<img class="responsive-hide" src="http://www.danielbatista.com.br/wp-content/uploads/2017/01/site-07.png">
+						<div class="personagem-descricao  responsive-hide">
 							Amiga de beto, Lisa é determinada e tem um olhar diferente. Ela gosta de tirar fotos com a "pimba", sua máquina fotográfica.
 						</div>
 					</div>

@@ -171,24 +171,38 @@ img.img-right {
 /* ----------- HTC One ----------- */
 
 /* Portrait and Landscape */
-@media screen 
-  and (device-width: 360px) 
-  and (device-height: 640px) {
+@media (max-width: 412px) {
+    .call-to-action .section-overlay-layer {
+        padding-top: 15px;
+        padding-bottom: 30px;
+    }
 
-}
+    img.img-right,
+    img.img-left {
+        height: 300px;
+        position: absolute;
+        left: 25px;
+    }
 
-/* Portrait */
-@media screen 
-  and (device-width: 360px) 
-  and (device-height: 640px) 
-  and (orientation: portrait) {
+    .call-to-action h2 {
+        height: 285px;
+    }
 
-}
+    .section-header.font-title img {
+        max-height: 45px;
+    }
 
-/* Landscape */
-@media screen 
-  and (device-width: 360px) 
-  and (device-height: 640px) 
-  and (orientation: landscape) {
+    .aba-guarana img {
+        padding: 0px 0px 0px 30px;
+    }
 
+    .personagem .lisa img{
+      display: block;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      background: url(http://www.danielbatista.com.br/wp-content/uploads/2017/01/mobile-20.png) no-repeat;
+      width: 180px; /* Width of new image */
+      height: 236px; /* Height of new image */
+      padding-left: 180px; /* Equal to width of new image */
+    }
 }
