@@ -67,10 +67,10 @@ if ( ! empty( $parallax_one_our_services_title ) || ! empty( $parallax_one_our_s
 				<div class="row">
 					<div class="col-sm-4 col-md-4 col-xs-12 personagem">
 						<img class="responsive-hide" src="http://www.danielbatista.com.br/wp-content/uploads/2017/01/site-10.png">
-						<div class="col-xs-12">
+						<div class="col-xs-6">
 							<img class="desktop-hide" src="http://www.danielbatista.com.br/wp-content/uploads/2017/01/mobile-15.png">
 						</div>
-						<div class="col-xs-12">
+						<div class="col-xs-6">
 							<img class="desktop-hide" src="http://www.danielbatista.com.br/wp-content/uploads/2017/01/mobile-16.png">
 						</div>
 						<div class="personagem-descricao  responsive-hide responsive-hide">
@@ -79,10 +79,10 @@ if ( ! empty( $parallax_one_our_services_title ) || ! empty( $parallax_one_our_s
 					</div>
 					<div class="col-sm-4 col-md-4 col-xs-12 personagem">
 						<img class="responsive-hide" src="http://www.danielbatista.com.br/wp-content/uploads/2017/01/site-09.png">
-						<div class="col-xs-12">
+						<div class="col-xs-6">
 							<img class="desktop-hide" src="http://www.danielbatista.com.br/wp-content/uploads/2017/01/mobile-17.png">
 						</div>
-						<div class="col-xs-12">
+						<div class="col-xs-6">
 							<img class="desktop-hide" src="http://www.danielbatista.com.br/wp-content/uploads/2017/01/mobile-18.png">
 						</div>
 						<div class="personagem-descricao  responsive-hide">
@@ -91,10 +91,10 @@ if ( ! empty( $parallax_one_our_services_title ) || ! empty( $parallax_one_our_s
 					</div>
 					<div class="col-sm-4 col-md-4 col-xs-12 personagem">
 						<img class="responsive-hide" src="http://www.danielbatista.com.br/wp-content/uploads/2017/01/site-08.png">
-						<div class="col-xs-12">
+						<div class="col-xs-6">
 							<img class="desktop-hide" src="http://www.danielbatista.com.br/wp-content/uploads/2017/01/mobile-19.png">
 						</div>
-						<div class="col-xs-12">
+						<div class="col-xs-6">
 							<img class="desktop-hide" src="http://www.danielbatista.com.br/wp-content/uploads/2017/01/mobile-20.png">
 						</div>
 						<div class="personagem-descricao  responsive-hide">
