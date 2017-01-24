@@ -13,6 +13,7 @@
 <?php parallax_hook_head_top(); ?>
 <meta charset="<?php bloginfo( 'charset' ); ?>">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta property="og:image" content="http://www.danielbatista.com.br/wp-content/uploads/2017/01/siteai-21.png" />
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 <?php parallax_hook_head_bottom(); ?>

@@ -56,7 +56,9 @@
 			<div class="col-sm-4 col-xs-12 col-md-3">
 				<div class="footer-title">Selo Independente:</div>
 				<div class="row gas-icon">
-					<img src="http://www.danielbatista.com.br/wp-content/uploads/2017/01/site-14.png">
+					<a href="https://www.facebook.com/gasunesp/">
+						<img src="http://www.danielbatista.com.br/wp-content/uploads/2017/01/site-14.png">
+					</a>
 				</div>
 			</div>
 			
