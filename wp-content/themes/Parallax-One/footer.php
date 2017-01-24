@@ -44,8 +44,8 @@
 		</div><!-- .footer-widget-wrap -->
 
 		<div class="footer-bottom-wrap">
-			<div class="col-sm-4 col-xs-12 col-md-5"></div>
-			<div class="col-sm-4 col-xs-12 col-md-4">
+			<div class="col-sm-3 col-xs-12 col-md-5"></div>
+			<div class="col-sm-5 col-xs-12 col-md-4">
 				<div class="footer-title">Redes Sociais e Contato:</div>
 				<div class="row social-icons">
 					<a href="https://www.facebook.com/betoeabahq" class="facebook"><i class="fa fa-facebook-square fa-5x"></i></a>
