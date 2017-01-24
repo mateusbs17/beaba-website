@@ -177,7 +177,12 @@ img.img-right {
         padding-bottom: 30px;
     }
 
-    img.img-right,
+    img.img-right {
+        height: 300px;
+        position: absolute;
+        right: 25px;
+    }
+
     img.img-left {
         height: 300px;
         position: absolute;
@@ -204,5 +209,9 @@ img.img-right {
       width: 180px; /* Width of new image */
       height: 236px; /* Height of new image */
       padding-left: 180px; /* Equal to width of new image */
+    }
+
+    .responsive-hide {
+        display: none;
     }
 }
