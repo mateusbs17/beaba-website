@@ -168,9 +168,18 @@ img.img-right {
     height: 100%;
 }
 
-/* ----------- HTC One ----------- */
+.responsive-hide {
+    display: block;
+}
 
-/* Portrait and Landscape */
+.desktop-hide {
+    display: none;
+}
+
+/**
+ * Responsivo
+ */
+
 @media (max-width: 412px) {
     .call-to-action .section-overlay-layer {
         padding-top: 15px;
@@ -213,5 +222,29 @@ img.img-right {
 
     .responsive-hide {
         display: none;
+    }
+
+    .desktop-hide {
+        display: block;
+    }
+
+    .personagem img {
+        padding: 0;
+    }
+
+    .navbar-inverse .navbar-toggle .icon-bar {
+        display: none;
+    }
+
+    .intro-text {
+        padding: 10%;
+    }
+
+    .row.aba-texto {
+        padding: 7%;
+    }
+
+    .body {
+        font-size: 18px;
     }
 }
