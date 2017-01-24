@@ -4,6 +4,7 @@
 
 .header .overlay-layer{
     padding-left: 40%!important;
+    padding-bottom: 10%;
 }
 
 .overlay-layer-wrap {
@@ -244,7 +245,7 @@ img.img-right {
         padding: 7%;
     }
 
-    .body {
+    body {
         font-size: 18px;
     }
 }
