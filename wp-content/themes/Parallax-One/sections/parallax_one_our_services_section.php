@@ -26,8 +26,8 @@ if ( ! empty( $parallax_one_our_services_title ) || ! empty( $parallax_one_our_s
 
 				<div class="row">
 					<div class="col-sm-6">
-						<div class="youtube-container">
-							<iframe src="https://www.youtube.com/embed/f1OcjGtBMlg" frameborder="0" class="video"></iframe>
+						<div>
+							<iframe style="width: 100%;height: 366px;" src="//e.issuu.com/embed.html#10401528/54214234" frameborder="0" allowfullscreen=""></iframe>
 						</div>
 					</div>
 					<div class="col-sm-6 intro-text">
