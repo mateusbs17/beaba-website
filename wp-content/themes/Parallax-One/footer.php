@@ -75,6 +75,10 @@
 			<input type="image" src="https://stc.pagseguro.uol.com.br/public/img/botoes/pagamentos/205x30-comprar.gif" name="submit" alt="Pague com PagSeguro - é rápido, grátis e seguro!" />
 		</form>
 		<script type="text/javascript" src="https://stc.pagseguro.uol.com.br/pagseguro/api/v2/checkout/pagseguro.lightbox.js"></script>
+		<script type="text/javascript">
+			var $ =  jQuery;
+			$('.inpage_scroll_btn').on('click', function(){$('input[type=image]').click();});
+		</script>
 	</div>
 	<!-- FINAL FORMULARIO BOTAO PAGSEGURO -->
 </footer>
