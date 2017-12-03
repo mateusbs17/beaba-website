@@ -1,58 +1,65 @@
 <?php
 /**
- * The template for displaying all pages.
+ * The main template file.
  *
- * This is the template that displays all pages by default.
- * Please note that this is the WordPress construct of pages
- * and that other 'pages' on your WordPress site will use a
- * different template.
+ * This is the most generic template file in a WordPress theme
+ * and one of the two required files for a theme (the other being style.css).
+ * It is used to display a page when nothing more specific matches a query.
+ * E.g., it puts together the home page when no home.php file exists.
+ * Learn more: http://codex.wordpress.org/Template_Hierarchy
  *
  * @package parallax-one
  */
+
 die('Foi');
-$paralax_one_full_width_template = get_theme_mod( 'paralax_one_full_width_template' );
-if ( isset( $paralax_one_full_width_template ) && $paralax_one_full_width_template != 1 ) {
-	get_header(); ?>
+	get_header();
+?>
+	</div>
+	<!-- /END COLOR OVER IMAGE -->
+	<?php parallax_hook_header_bottom(); ?>
+</header>
+<!-- /END HOME / HEADER  -->
+<?php parallax_hook_header_after(); ?>
 
-		</div>
-		<!-- /END COLOR OVER IMAGE -->
-		<?php parallax_hook_header_bottom(); ?>
-	</header>
-	<!-- /END HOME / HEADER  -->
-	<?php parallax_hook_header_after(); ?>
+<?php parallax_hook_content_before(); ?>
+<div role="main" id="content" class="content-warp">
+	<?php parallax_hook_content_top(); ?>
+	<div class="container">
+		<div id="primary" class="content-area col-md-8 post-list">
+			<main <?php if ( have_posts() ) { echo 'itemscope itemtype="http://schema.org/Blog"';} ?> id="main" class="site-main" role="main">
 
-	<?php parallax_hook_content_before(); ?>
-	<div id="content" class="content-warp">
-		<?php parallax_hook_content_top(); ?>
-		<div class="container">
-			<div id="primary" class="content-area <?php if ( is_active_sidebar( 'sidebar-1' ) ) { echo 'col-md-8';} else { echo 'col-md-12';}  ?>">
-				<main itemscope itemtype="http://schema.org/WebPageElement" itemprop="mainContentOfPage" id="main" class="site-main" role="main">
+				<?php if ( have_posts() ) : ?>
 
-				<?php parallax_hook_page_before();?>
-				<?php while ( have_posts() ) : the_post(); ?>
+					<?php /* Start the Loop */ ?>
+					<?php while ( have_posts() ) : the_post(); ?>
+						<?php parallax_hook_entry_before(); ?>
+						<?php
 
-					<?php get_template_part( 'content', 'page' ); ?>
+							/*
+							 Include the Post-Format-specific template for the content.
+							 * If you want to override this in a child theme, then include a file
+							 * called content-___.php (where ___ is the Post Format name) and that will be used instead.
+							 */
+							get_template_part( 'content', get_post_format() );
+						?>
+						<?php parallax_hook_entry_after(); ?>
+					<?php endwhile; ?>
 
-					<?php
-						// If comments are open or we have at least one comment, load up the comment template
-					if ( comments_open() || get_comments_number() ) :
-						comments_template();
-						endif;
-					?>
+					<?php the_posts_navigation(); ?>
 
-				<?php endwhile; // end of the loop. ?>
-				<?php parallax_hook_page_after();?>
+				<?php else : ?>
 
-				</main><!-- #main -->
-			</div><!-- #primary -->
-			<?php get_sidebar(); ?>
+					<?php get_template_part( 'content', 'none' ); ?>
 
-		</div>
-		<?php parallax_hook_content_bottom(); ?>
-	</div><!-- .content-wrap -->
-	<?php parallax_hook_content_after(); ?>
-	<?php get_footer(); ?>
-	<?php
-} else {
-	include( 'template-fullwidth.php' );
-}// End if().
+				<?php endif; ?>
+
+			</main><!-- #main -->
+		</div><!-- #primary -->
+
+		<?php get_sidebar(); ?>
+
+	</div>
+	<?php parallax_hook_content_bottom(); ?>
+</div><!-- .content-wrap -->
+<?php parallax_hook_content_after(); ?>
+<?php get_footer(); ?>
