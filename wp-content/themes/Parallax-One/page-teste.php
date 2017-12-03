@@ -1,65 +1,44 @@
 <?php
 /**
- * The main template file.
- *
- * This is the most generic template file in a WordPress theme
- * and one of the two required files for a theme (the other being style.css).
- * It is used to display a page when nothing more specific matches a query.
- * E.g., it puts together the home page when no home.php file exists.
- * Learn more: http://codex.wordpress.org/Template_Hierarchy
+ * Front Page Template
  *
  * @package parallax-one
  */
+die("foi");
+if ( 'posts' == get_option( 'show_on_front' ) ) {
 
-die('Foi');
-	get_header();
-?>
-	</div>
-	<!-- /END COLOR OVER IMAGE -->
-	<?php parallax_hook_header_bottom(); ?>
-</header>
-<!-- /END HOME / HEADER  -->
-<?php parallax_hook_header_after(); ?>
+		get_header();
 
-<?php parallax_hook_content_before(); ?>
-<div role="main" id="content" class="content-warp">
+		parallax_one_get_template_part( apply_filters( 'parallax_one_plus_header_layout','/sections/parallax_one_header_section' ) );
+	?>
+		</div>
+		<!-- /END COLOR OVER IMAGE -->
+		<?php parallax_hook_header_bottom(); ?>
+	</header>
+	<!-- /END HOME / HEADER  -->
+	<?php parallax_hook_header_after(); ?>
+
+	<?php parallax_hook_content_before(); ?>
+	<div itemprop id="content" class="content-warp" role="main">
 	<?php parallax_hook_content_top(); ?>
-	<div class="container">
-		<div id="primary" class="content-area col-md-8 post-list">
-			<main <?php if ( have_posts() ) { echo 'itemscope itemtype="http://schema.org/Blog"';} ?> id="main" class="site-main" role="main">
+	<?php
 
-				<?php if ( have_posts() ) : ?>
+		$sections_array = apply_filters( 'parallax_one_plus_sections_filter',array( 'sections/parallax_one_logos_section', 'sections/parallax_one_our_services_section', 'sections/parallax_one_our_story_section', 'sections/parallax_one_our_team_section', 'sections/parallax_one_happy_customers_section', 'sections/parallax_one_ribbon_section', 'sections/parallax_one_latest_news_section', 'sections/parallax_one_contact_info_section', 'sections/parallax_one_map_section' ) );
 
-					<?php /* Start the Loop */ ?>
-					<?php while ( have_posts() ) : the_post(); ?>
-						<?php parallax_hook_entry_before(); ?>
-						<?php
-
-							/*
-							 Include the Post-Format-specific template for the content.
-							 * If you want to override this in a child theme, then include a file
-							 * called content-___.php (where ___ is the Post Format name) and that will be used instead.
-							 */
-							get_template_part( 'content', get_post_format() );
-						?>
-						<?php parallax_hook_entry_after(); ?>
-					<?php endwhile; ?>
-
-					<?php the_posts_navigation(); ?>
-
-				<?php else : ?>
-
-					<?php get_template_part( 'content', 'none' ); ?>
-
-				<?php endif; ?>
-
-			</main><!-- #main -->
-		</div><!-- #primary -->
-
-		<?php get_sidebar(); ?>
-
-	</div>
+	if ( ! empty( $sections_array ) ) {
+		foreach ( $sections_array as $section ) {
+			parallax_one_get_template_part( $section );
+		}
+	}
+	?>
 	<?php parallax_hook_content_bottom(); ?>
-</div><!-- .content-wrap -->
-<?php parallax_hook_content_after(); ?>
-<?php get_footer(); ?>
+	</div><!-- .content-wrap -->
+	<?php parallax_hook_content_after(); ?>
+	<?php
+
+	get_footer();
+} else {
+
+	include( get_page_template() );
+}// End if().
+?>
