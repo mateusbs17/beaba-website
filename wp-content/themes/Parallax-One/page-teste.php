@@ -4,7 +4,6 @@
  *
  * @package parallax-one
  */
-die("foi");
 if ( 'posts' == get_option( 'show_on_front' ) ) {
 
 		get_header();
