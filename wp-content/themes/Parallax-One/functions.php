@@ -281,8 +281,6 @@ function parallax_one_scripts() {
 	) );
 
 	$parallax_one_enable_move = get_theme_mod( 'paralax_one_enable_move' );
-	var_dump(! empty( $parallax_one_enable_move ) && $parallax_one_enable_move && 'posts' == get_option( 'show_on_front' ) && is_front_page());
-	var_dump($parallax_one_enable_move, $parallax_one_enable_move, get_option( 'show_on_front' ), is_front_page());
 
 	if ( ! empty( $parallax_one_enable_move ) && $parallax_one_enable_move && 'posts' == get_option( 'show_on_front' ) ) {
 

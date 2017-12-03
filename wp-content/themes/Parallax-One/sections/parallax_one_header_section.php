@@ -20,9 +20,6 @@ $parallax_one_enable_move = get_theme_mod( 'paralax_one_enable_move' );
 $parallax_one_first_layer = get_theme_mod( 'paralax_one_first_layer', parallax_get_file( '/images/background1.png' ) );
 $parallax_one_second_layer = get_theme_mod( 'paralax_one_second_layer',parallax_get_file( '/images/background2.png' ) );
 
-var_dump( ! empty( $paralax_one_header_logo ) || ! empty( $parallax_one_header_title ) || ! empty( $parallax_one_header_subtitle ) || ! empty( $parallax_one_header_button_text ));
-var_dump($paralax_one_header_logo, $parallax_one_header_title, $parallax_one_header_subtitle, $parallax_one_header_button_text);
-
 if ( ! empty( $paralax_one_header_logo ) || ! empty( $parallax_one_header_title ) || ! empty( $parallax_one_header_subtitle ) || ! empty( $parallax_one_header_button_text ) ) {
 
 	if ( ! empty( $parallax_one_enable_move ) && $parallax_one_enable_move ) {

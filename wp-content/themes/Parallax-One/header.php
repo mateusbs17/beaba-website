@@ -26,7 +26,7 @@
 <?php wp_head(); ?>
 </head>
 
-<body itemscope itemtype="http://schema.org/WebPage" <?php body_class(); ?> dir="<?php if ( is_rtl() ) { echo 'rtl'; } else { echo 'ltr';} ?>">
+<body itemscope itemtype="http://schema.org/WebPage" <?php body_class('home blog'); ?> dir="<?php if ( is_rtl() ) { echo 'rtl'; } else { echo 'ltr';} ?>">
 <?php parallax_hook_body_top(); ?>
 <div id="mobilebgfix">
 	<div class="mobile-bg-fix-img-wrap">
