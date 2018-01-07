@@ -1,0 +1,256 @@
+/**
+ * Beaba Custom CSS
+ */
+
+.header .overlay-layer{
+    padding-left: 40%!important;
+    padding-bottom: 10%;
+}
+
+.overlay-layer-wrap {
+    background: rgba(0, 0, 0, 0)!important;
+}
+
+/**
+ * Botão do cabeçalho
+ */
+
+.standard-button {
+    text-transform: inherit;    
+}
+
+.standard-button, .navbar-register-button {
+    background-color: #cb4059;
+    border-radius: 20px;
+    font-family: Vanillaregular;
+}
+
+.standard-button:hover, .navbar-register-button:hover{
+    background: #cb4059;
+}
+
+/**
+ * Call to Action descrição do exemplar
+ */
+
+.call-to-action h2 {
+    height: 193px;
+}
+
+img.img-left {
+    height: 300px;
+    position: absolute;
+    left: 0px;
+}
+
+img.img-right {
+    height: 300px;
+    position: absolute;
+    right: 0px;
+}
+
+.section-overlay-layer {
+    padding-top: 100px;
+}
+
+.font-title img{
+    max-height:80px;
+}
+
+.call-to-action .section-overlay-layer {
+    background: none;
+}
+
+.aba-guarana {
+    padding: 0 10% 0 10%;
+    text-align: center;
+}
+
+.aba-image {
+    padding-bottom: 60px;
+}
+
+.aba-guarana img{
+    max-height: 380px;
+}
+
+.services {
+    background-color: #d6e04d;
+}
+
+.border-bottom-hover:hover {
+    border-bottom-color: #145742;
+}
+.gas-icon {
+    padding: 15px;
+}
+
+.gas-icon img{
+    max-height: 75px;
+}
+
+.footer {
+    background: #d6e04d;
+}
+
+.social-icons {
+    padding: 15px;
+    display: flex;
+}
+
+.social-icons a {
+    margin-right: 20px;
+}
+
+.social-icons a.facebook {
+    color: #0b5741;
+}
+
+.social-icons a.behance {
+    background: #0b5741;
+    border: 1px #0b5741;
+    border-radius: 124px;
+    padding: 15px 9px 0px 11px;
+    color: #d6e04d;
+    max-height: 75px;
+    margin-top: 1px;
+}
+
+.social-icons a.email {
+    background: #0b5741;
+    border: 1px #0b5741;
+    border-radius: 124px;
+    padding: 14px 13px 0px 13px;
+    color: #d6e04d;
+    max-height: 75px;
+    margin-top: 1px;
+}
+
+.footer-bottom-wrap {
+    text-align: left;
+}
+
+.footer-title {
+    font-size: 12px;
+}
+
+.pag-seguro-form {
+    display: none;
+}
+
+/**
+ * Seção de personagem
+ */
+
+.personagem {
+    text-align: center;
+}
+
+.personagem img {
+    padding: 15%;
+    max-height: 600px;
+}
+
+/**
+ * Mobile
+ */
+
+.youtube-container {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+}
+.video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.responsive-hide {
+    display: block;
+}
+
+.desktop-hide {
+    display: none;
+}
+
+.personagem img.responsive-hide {
+    max-height: 420px;
+    margin: 0 45px 0 50px;
+}
+
+/**
+ * Responsivo
+ */
+
+@media (max-width: 412px) {
+    .call-to-action .section-overlay-layer {
+        padding-top: 15px;
+        padding-bottom: 30px;
+    }
+
+    img.img-right {
+        height: 300px;
+        position: absolute;
+        right: 25px;
+    }
+
+    img.img-left {
+        height: 300px;
+        position: absolute;
+        left: 25px;
+    }
+
+    .call-to-action h2 {
+        height: 285px;
+    }
+
+    .section-header.font-title img {
+        max-height: 45px;
+    }
+
+    .aba-guarana img {
+        padding: 0px 0px 0px 30px;
+    }
+
+    .personagem .lisa img{
+      display: block;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      background: url(http://www.danielbatista.com.br/wp-content/uploads/2017/01/mobile-20.png) no-repeat;
+      width: 180px; /* Width of new image */
+      height: 236px; /* Height of new image */
+      padding-left: 180px; /* Equal to width of new image */
+    }
+
+    .responsive-hide {
+        display: none;
+    }
+
+    .desktop-hide {
+        display: block;
+    }
+
+    .personagem img {
+        padding: 0;
+    }
+
+    .navbar-inverse .navbar-toggle .icon-bar {
+        display: none;
+    }
+
+    .intro-text {
+        padding: 10%;
+    }
+
+    .row.aba-texto {
+        padding: 7%;
+    }
+
+    body {
+        font-size: 18px;
+    }
+}
